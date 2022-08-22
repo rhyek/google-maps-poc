@@ -1,4 +1,7 @@
 export interface SelectedPlace {
   placeId?: string | null;
-  pos: google.maps.LatLngLiteral;
+  pos: {
+    lat: number;
+    lng: number;
+  };
 }
